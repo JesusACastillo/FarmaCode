@@ -1,0 +1,35 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Build outputs
+build/
+dist/
+target/
+out/
+nbbuild/
+nbdist/
+
+# NetBeans private files
+nbproject/private/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local.properties
+config/local.*
+
+# Logs and operating systems
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
